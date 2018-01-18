@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|Oswald');
+
+/*
+font-family: 'Oswald', sans-serif;  <--------- Headlines
+font-family: 'Old Standard TT', serif; <------ Text
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Oswald', sans-serif;
+}
+
+body {
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+}
+
+.homelogo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    opacity: .8;
+}
+
+.merchlogo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    opacity: .8;
+}
+
+.brandicon {
+	display: block;
+    margin: auto;
+    max-width: 25px;
+}
+
+body {
+	background-image: url("https://storage.googleapis.com/nolan-pour-house/bar");
+}
+
+.jumbotron {
+	background: transparent;
+	color: white;
+}
+
+.nav, .navbar {
+	background: #FFFFFF;
+	opacity: .9;
+	text-decoration-color: white;
+}
+
+.jumbotrontext {
+	text-align: center;
+	color: white;
+	max-width: 600px;
+	display: block;
+    margin: auto;
+}
+
+
+.sectionblock {
+	opacity: .9;
+	display: block;
+    border-width: : 200px;
+    border-style: solid;
+    background-color: #EFDDBA;
+    margin-bottom: 10px;
+}
+
+.productblock {
+	padding: 20px;
+	display: block;
+    border-style: solid;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    border-color: #EFDDBA;
+    border-radius: 10px;
+}
+
+.sectionhead {
+	text-align: center;
+}
+
+.sectiontext {
+	padding: 20px;
+}
+
+.btn-primary {
+	display: block;
+	width: 30%;
+	margin: auto;
+	background-color: navy;
+	font-family: 'Old Standard TT', serif;
+	font-size: 18px;
+}
+
+.footer {
+	margin-top: 20px;
+
+	height: 30px;
+	color: white;
+}
+
+.sectionmargin {
+	padding: 20px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	color: #FFFFFF;
+	background-color: navy;
+}
